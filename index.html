@@ -1,124 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Josh-127</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, intial-scale=1" />
+<title>Josh-127</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, intial-scale=1" />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <style>
-    .navbar {
-        margin-bottom: 0;
-    }
-    </style>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar navbar-default navbar-static-top">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">Josh-127</a>
-            </div>
-
-            <div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li role="presentation" class="dropdown">
-                        <a
-                            class="dropdown-toggle"
-                            data-toggle="dropdown"
-                            href="#"
-                            role="button"
-                            aria-haspopup="true"
-                            aria-expanded="false"
-                        >
-                            Projects <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="https://github.com/josh-127/survival">Survival</a></li>
-                            <li><a href="https://github.com/josh-127/billboards">Billboards</a></li>
-                            <li><a href="https://github.com/josh-127/Combust">Combust</a></li>
-                            <li><a href="https://github.com/josh-127/CodeDump-HttpServer">HTTP Server</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="jumbotron">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h1>Survival</h1>
-                    <p>An infinite exploration game.</p>
-                    <p>
-                        <a class="btn btn-success" href="https://github.com/josh-127/survival/releases">Download</a>
-                        <a class="btn btn-primary" href="https://github.com/josh-127/survival">View on GitHub</a>
-                    </p>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Josh-127</a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a id="projectsMenu" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Projects
+                </a>
+                <div class="dropdown-menu" aria-labelledby="projectsMenu">
+                    <a class="dropdown-item" href="https://github.com/josh-127/survival">Survival</a>
+                    <a class="dropdown-item" href="https://github.com/josh-127/billboards">Billboards</a>
+                    <a class="dropdown-item" href="https://github.com/josh-127/nebula">Nebula</a>
+                    <a class="dropdown-item" href="https://github.com/josh-127/Combust">Combust</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://github.com/josh-127/java-car-animation">3D Renderer</a>
+                    <a class="dropdown-item" href="https://github.com/josh-127/CodeDump-HttpServer">HTTP Server</a>
+                    <a class="dropdown-item" href="https://github.com/josh-127/pwnable.kr">pwnable.kr</a>
                 </div>
-                <div class="col-md-8">
-                    <img class="img-responsive img-rounded" src="images/screenshot.png" />
-                </div>
-            </div>
-        </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="page-header">
-                    <h2>Other Projects</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">
-                        Billboards <span class="label label-default">New</span>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="card-group">
+                <div class="card">
+                    <img class="card-img-top" src="images/screenshot.png" />
+                    <div class="card-body">
+                        <h1 class="card-title">Survival</h1>
+                        <p class="card-text">An infinite exploration game.</p>
+                        <a class="btn btn-success" href="https://github.com/josh-127/survival/releases">Download</a>
+                        <a class="btn btn-primary" href="http://github.com/josh-127/survival">View on GitHub</a>
                     </div>
-                    <div class="panel-body">
-                        <p>Forum software written in C# with the ASP.NET Core framework.
-                        <p>TBA</p>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="images/billboards.png" />
+                    <div class="card-body">
+                        <h1 class="card-title">Billboards</h1>
+                        <p class="card-text">Forum software written in C# with ASP.NET Core.</p>
                         <a class="btn btn-success" href="https://github.com/josh-127/billboards/releases">Download</a>
                         <a class="btn btn-primary" href="https://github.com/josh-127/billboards">View on GitHub</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">Combust</div>
-                    <div class="panel-body">
-                        <p>ANSI C compiler/linker and x86 assembler for native application development.</p>
-                        <a class="btn btn-success" href="https://github.com/josh-127/Combust/releases">Download</a>
-                        <a class="btn btn-primary" href="https://github.com/josh-127/Combust">View on GitHub</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">
-                        HTTP Server Demo
-                    </div>
-                    <div class="panel-body">
-                        <p>A basic multi-process HTTP server with support for server-sided scripting.</p>
-                        <a class="btn btn-success" href="https://github.com/josh-127/CodeDump-HttpServer/releases">Download</a>
-                        <a class="btn btn-primary" href="https://github.com/josh-127/CodeDump-HttpServer">View on GitHub</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <hr />
-                <footer>Copyright &#169; 2019 Josh-127</footer>
-                <footer>Website built with <a href="https://getbootstrap.com">Bootstrap</a></footer>
-                <br />
-            </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col">
+            <br />
+            <footer>Copyright &#169; 2019 Josh-127</footer>
+            <footer>Website built with <a href="https://getbootstrap.com">Bootstrap</a></footer>
+            <br />
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
